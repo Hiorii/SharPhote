@@ -1,0 +1,36 @@
+@import '../../../styles/settings.scss';
+
+.single-product {
+  width: $smallWidth;
+  max-width: $fullWidth;
+  margin: 4rem auto;
+}
+
+.single-product article {
+  margin-bottom: 3rem;
+}
+.single-product-image {
+  max-width: 25rem;
+  align-self: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.single-product h1 {
+  text-transform: capitalize;
+  font-size: 2.3rem;
+  letter-spacing: $mainSpacing;
+}
+.single-product h2 {
+  color: $primaryColor;
+}
+.single-product p {
+  line-height: 2;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 992px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 3rem;
+  }
+}
