@@ -1,17 +1,6 @@
 @import '../../../../styles/settings.scss';
 
-.section {
-  padding: 4rem 0;
-}
-.section-title,
-.search-errors {
-  font-size: 2rem;
-  text-transform: capitalize;
-  letter-spacing: $mainSpacing;
-  text-align: center;
-  margin-bottom: 3.5rem;
-}
-.products-center {
+.productsCenter {
   width: $smallWidth;
   margin: 0 auto;
   max-width: $fullWidth;
@@ -33,7 +22,7 @@
 .product:hover {
   box-shadow: $darkShadow;
 }
-.img-container {
+.imgContainer {
   padding: 3rem;
   background: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -47,7 +36,7 @@
 .product:hover img {
   opacity: 0.3;
 }
-.product-link {
+.productLink {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,23 +44,23 @@
   opacity: 0;
   transition: $mainTransition;
 }
-.product:hover .product-link {
+.product:hover .productLink {
   opacity: 1;
 }
-.product-footer {
+.productFooter {
   padding: 0rem 1rem 1rem 1rem;
   text-align: center;
   letter-spacing: $mainSpacing;
   display: grid;
   grid-template-rows: 1fr auto;
 }
-.product-title {
+.productTitle {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
-.product-price {
+.productPrice {
   color: $primaryColor;
   font-weight: bold;
   margin-bottom: 0;

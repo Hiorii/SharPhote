@@ -49,8 +49,8 @@ Buttons
 ======
 */
 .btn,
-.btn-white,
-.btn-primary {
+.btnWhite,
+.btnPrimary {
   text-transform: uppercase;
   letter-spacing: $mainSpacing;
   color: $primaryColor;
@@ -66,28 +66,42 @@ Buttons
   background: $primaryColor;
   color: $mainWhite;
 }
-.btn-white {
+.btnWhite {
   background: transparent;
   color: $mainWhite;
   border-color: $mainWhite;
 }
-.btn-white:hover {
+.btnWhite:hover {
   background: $mainWhite;
   color: $primaryColor;
 }
-.btn-primary {
+.btnPrimary {
   background: $primaryColor;
   color: $mainWhite;
   border-color: $primaryColor;
 }
-.btn-primary:hover {
+.btnPrimary:hover {
   background: transparent;
   color: $primaryColor;
 }
-.btn-block {
+.btnBlock {
   width: 100%;
   display: block;
   margin: 0 auto;
   box-shadow: $lightShadow;
   text-align: center;
+}
+
+//sections
+
+.section {
+  padding: 4rem 0;
+}
+.sectionTitle,
+.searchErrors {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: $mainSpacing;
+  text-align: center;
+  margin: 3.5rem 0;
 }

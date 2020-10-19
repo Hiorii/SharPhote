@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0.7) 50%,
       rgba(255, 255, 255, 0.1)
   ),
-  url("../../../assets/mainBcg.jpeg") center/cover no-repeat;
+  url("../../../assets/mainBcg2.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
   letter-spacing: 3px;
   margin-bottom: 1.75rem;
 }
-.btn-hero {
+.btnHero {
   border-radius: 0;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
@@ -35,7 +35,7 @@
   border-color: $primaryDarkColor;
   color: $mainBlack;
 }
-.btn-hero:hover {
+.btnHero:hover {
   color: $primaryDarkColor;
 }
 @media screen and (min-width: 768px) {
@@ -49,7 +49,7 @@
   .hero p {
     font-size: 2.3rem;
   }
-  .btn-hero {
+  .btnHero {
     font-size: 1.2rem;
     padding: 1rem 3rem;
   }

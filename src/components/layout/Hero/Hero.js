@@ -1,6 +1,16 @@
 import React from 'react';
-//import styles from './Hero.scss';
+import styles from './Hero.scss';
 
-export default function Hero() {
-  return <h1>hello from hero</h1>;
+const Hero = ({children}) => {
+  return (
+    <div className={styles.hero}>
+      <div className={styles.banner}>
+        <h1>imagine, create, share</h1>
+        <p>capture the moment</p>
+        {children}
+      </div>
+    </div>
+  )
 }
+
+export default Hero;
