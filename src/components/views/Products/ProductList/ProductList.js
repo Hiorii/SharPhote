@@ -6,7 +6,7 @@ import Product from '../../Product/Product';
 const ProductList = ({title,products}) => {
   return (
     <section className={global.section}>
-      <h2 className={global.sectionTitle}>{title}</h2>
+      <h2 className={global.sectionTitle}>Wyróżnione zdjęcia</h2>
       <div className={styles.productsCenter}>
         {products.map((product)=>{
           return <Product key={product.id} {...product}/>

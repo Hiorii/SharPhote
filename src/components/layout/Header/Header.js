@@ -19,7 +19,7 @@ export default function Header() {
               <Link to='/about'>O nas</Link>
             </li>
             <li>
-              <Link to='/products'>Produkty</Link>
+              <Link to='/usertype'>Zdjęcia</Link>
             </li>
           </div>
           <div>

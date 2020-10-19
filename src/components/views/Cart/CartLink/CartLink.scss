@@ -1,13 +1,13 @@
 @import '../../../../styles/settings.scss';
 
-.cart-link-container {
+.cartLinkContainer {
   position: relative;
 }
-.cart-link-container a {
+.cartLinkContainer a {
   margin-right: 10px;
   font-weight: bolder;
 }
-.cart-link-total {
+.cartLinkTotal {
   display: block;
   position: absolute;
   background: $primaryColor;

@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
         <Hero >
-          <Link to='/products' className={`${global.btn} + ${global.btnPrimary} + ${styles.btnHero}`}>
-            our photos
+          <Link to='/usertype' className={`${global.btn} + ${global.btnPrimary} + ${styles.btnHero}`}>
+            nasze zdjęcia
           </Link>
         </Hero>
         <FeaturedProducts />

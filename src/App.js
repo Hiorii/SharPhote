@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import About from './components/views/About/About';
-import Cart from './components/views/Cart/Cart/Cart';
+import Cart from './components/views/Cart/Cart';
 import Checkout from './components/views/Checkout/Checkout';
 import Error from './components/views/Error/Error';
 import Home from './components/views/Home/Home';
@@ -9,6 +9,7 @@ import Login from './components/views/Login/Login/Login';
 import Products from './components/views/Products/Products';
 import ProductDetails from './components/views/Product/ProductDetails';
 import Header from './components/layout/Header/Header';
+import UserType from './components/views/UserType/UserType';
 
 export default function App() {
   return (
@@ -34,6 +35,9 @@ export default function App() {
         </Route>
         <Route exact path='/checkout'>
           <Checkout />
+        </Route>
+        <Route exact path='/usertype'>
+          <UserType />
         </Route>
         <Route path='*'>
           <Error/>
