@@ -1,9 +1,9 @@
 import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 import url from '../utils/URL'
+import {featureProducts} from '../utils/helpers';
+
 export const ProductData = React.createContext();
-
-
 
 const ProductsProvider = ({children}) => {
   const [loading, setLoading] = useState(false);
@@ -15,7 +15,9 @@ const ProductsProvider = ({children}) => {
     axios
       .get(`${url}/products`)
       .then(response => {
+        const featured = featureProducts(response.data);
         setProducts(response.data);
+        setFeaturedProducts(featured);
         setLoading(false);
       });
       return () => {}
@@ -31,6 +33,3 @@ const ProductsProvider = ({children}) => {
 };
 
 export default ProductsProvider;
-
-
-

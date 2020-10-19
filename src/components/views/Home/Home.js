@@ -3,6 +3,7 @@ import Hero from '../../layout/Hero/Hero';
 import {Link} from 'react-router-dom';
 import global from '../../../styles/global.scss'
 import styles from '../../../components/layout/Hero/Hero.scss';
+import FeaturedProducts from '../Products/FeaturedProducts';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
             our photos
           </Link>
         </Hero>
+        <FeaturedProducts />
     </>
   )
 }
