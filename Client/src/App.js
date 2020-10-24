@@ -10,11 +10,14 @@ import Products from './components/views/Products/Products';
 import ProductDetails from './components/views/Product/ProductDetails';
 import Header from './components/layout/Header/Header';
 import UserType from './components/views/UserType/UserType';
+import Alert from './components/views/Alert/Alert';
+import PrivateRoute from './components/views/PrivateRoute/PrivateRoute';
 
 export default function App() {
   return (
     <Router>
       <Header />
+      <Alert />
       <Switch>
         <Route exact path='/'>
           <Home />
@@ -33,9 +36,9 @@ export default function App() {
         <Route exact path='/login'>
           <Login />
         </Route>
-        <Route exact path='/checkout'>
+        <PrivateRoute exact path='/checkout'>
           <Checkout />
-        </Route>
+        </PrivateRoute>
         <Route exact path='/usertype'>
           <UserType />
         </Route>
@@ -44,5 +47,5 @@ export default function App() {
         </Route>
       </Switch>
     </Router>
-  )
+  );
 }

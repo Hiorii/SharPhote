@@ -1,6 +1,6 @@
 @import '../../../styles/settings.scss';
 
-.alert-container {
+.alertContainer {
   position: fixed;
   top: 30%;
   left: 50%;
@@ -19,20 +19,20 @@
   border-radius: $mainBorderRadius;
   transition: all 0.3s linear;
 }
-.alert-show {
+.alertShow {
   display: block;
 }
-.alert-center {
+.alertCenter {
   position: relative;
 }
 .alert p {
   margin-bottom: 0;
   line-height: 2;
 }
-.alert-danger {
+.alertDanger {
   background: $mainRed;
 }
-.alert-close {
+.alertClose {
   color: $mainWhite;
   font-size: 1.5rem;
   background: transparent;

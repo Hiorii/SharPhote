@@ -20,7 +20,7 @@ const UserType = () => {
         </div>
         <div className={styles.userContainer}>
           <h2>Chcę sprzedać moje zdjęcia</h2>
-          <Link to='/login'>
+          <Link to='/sad'>
             <div className={`${styles.userPhoto} + ${styles.userSeller}`}>
               <button className={`${global.btn} + ${global.btnPrimary} + ${styles.btnUser}`}>
                 Sprzedaj

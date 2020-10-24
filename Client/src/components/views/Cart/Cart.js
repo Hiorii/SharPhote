@@ -6,14 +6,15 @@ import EmptyCart from './EmptyCart';
 import CartItem from './CartItem';
 import {Link} from 'react-router-dom';
 import CartLink from './CartLink/CartLink';
-//import {UserContext} from '../../../../data/userData';
+import {UserContext} from '../../../data/userData';
 
 const Cart = () => {
-  let user = false;
+
   const {cart, total} = useContext(CardData);
+  const {user} = useContext(UserContext);
 
   if(cart.length === 0) {
-    return <EmptyCart />
+    return <EmptyCart />;
   }
 
   return (
@@ -31,7 +32,7 @@ const Cart = () => {
           Kontunuuj zakupy
         </Link>
       </div>
-      {user ? (
+      {user.token ? (
         <Link
           to='/checkout'
           className={`${global.btn} + ${global.btnPrimary} + ${global.btnBlock}`}
@@ -47,7 +48,7 @@ const Cart = () => {
         </Link>
       )};
     </section>
-  )
+  );
 };
 
 export default Cart;

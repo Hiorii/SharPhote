@@ -1,4 +1,5 @@
 import  React, {useState, useEffect} from 'react';
+import PropTypes from 'prop-types';
 
 const getCartFromLocalStorage = () => {
   return localStorage.getItem('cart')
@@ -21,26 +22,25 @@ const CardProvider = ({children}) => {
     setCartItems(newCartItems);
     let newTotal = cart.reduce((total, cartItem) => {
       return (total += cartItem.amount * cartItem.price);
-    }, 0)
+    }, 0);
     newTotal = parseFloat(newTotal.toFixed(2));
     setTotal(newTotal);
-  },[cart])
+  },[cart]);
 
   const removeItem = id => {
     let newCart = [...cart].filter(item=>item.id !== id);
     setCart(newCart);
   };
   const increaseAmount = (id) => {
-    console.log(id)
     const newCart = [...cart].map(item => {
-      return item.id = id ? {...item,amount: item.amount + 1} : {...item};
-    })
+      return item.id === id ? {...item,amount: item.amount + 1} : {...item};
+    });
     setCart(newCart);
   };
   const decreaseAmount = id => {
     const newCart = [...cart].map(item=> {
-      return item.id = id ? {...item,amount: item.amount -1} : {...item};
-    })
+      return item.id === id ? {...item,amount: item.amount -1} : {...item};
+    });
     setCart(newCart);
   };
   const addToCart = product => {
@@ -70,11 +70,18 @@ const CardProvider = ({children}) => {
         increaseAmount,
         decreaseAmount,
         addToCart,
-        clearCart
+        clearCart,
       }}>
       {children}
     </CardData.Provider>
   );
+};
+
+CardProvider.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]).isRequired,
 };
 
 export default CardProvider;

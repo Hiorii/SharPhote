@@ -2,6 +2,7 @@ import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 import url from '../utils/URL'
 import {featureProducts, flattenProducts} from '../utils/helpers';
+import PropTypes from 'prop-types';
 
 export const ProductData = React.createContext();
 
@@ -21,7 +22,7 @@ const ProductsProvider = ({children}) => {
         setFeaturedProducts(featured);
         setLoading(false);
       });
-      return () => {}
+    return () => {};
   },[]);
 
   return (
@@ -31,6 +32,13 @@ const ProductsProvider = ({children}) => {
       </ProductData.Provider>
     </div>
   );
+};
+
+ProductsProvider.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]).isRequired,
 };
 
 export default ProductsProvider;

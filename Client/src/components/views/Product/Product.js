@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Product.scss';
 import product from '../Products/ProductList/ProductList.scss';
 import global from '../../../styles/global.scss';
 import {Link} from 'react-router-dom';

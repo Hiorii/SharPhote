@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d80d30f3-64f1-4a8b-9651-46bf9960035a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Client/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.special.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Login/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Login/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Login/LoginLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Login/LoginLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/PrivateRoute/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/PrivateRoute/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/components/views/UserType/UserType.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/UserType/UserType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/data/cartData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/cartData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/data/productsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/productsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/data/userData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/userData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/strapi/loginUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/strapi/loginUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/strapi/submitOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/strapi/submitOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j0R9Nef6WpGYadJnEAh69Wy9Lg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/layout/Hero" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/views/Cart" />
+      <recent name="$PROJECT_DIR$/src/components/views/Login/Login" />
+      <recent name="$PROJECT_DIR$/src/components/views/Cart/CartLink" />
+      <recent name="$PROJECT_DIR$/src/components/views/Cart/Cart" />
+      <recent name="$PROJECT_DIR$/src/components/views/Products/ProductList" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80d30f3-64f1-4a8b-9651-46bf9960035a" name="Default Changelist" comment="" />
+      <created>1602938870597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602938870597</updated>
+      <workItem from="1602938871861" duration="7560000" />
+      <workItem from="1602946810508" duration="7922000" />
+      <workItem from="1603046058363" duration="2106000" />
+      <workItem from="1603121043201" duration="21705000" />
+      <workItem from="1603202156708" duration="25810000" />
+      <workItem from="1603304590715" duration="69000" />
+      <workItem from="1603304678442" duration="10085000" />
+      <workItem from="1603384639571" duration="7915000" />
+      <workItem from="1603523814206" duration="100000" />
+      <workItem from="1603539041207" duration="14760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2328" y="814" width="263" height="203" key="#ESLint" timestamp="1603306916692">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2328" y="814" width="263" height="203" key="#ESLint/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1603306916692" />
+    <state x="1097" y="780" width="676" height="431" key="EditFileWatcherDialog" timestamp="1602942223120">
+      <screen x="0" y="459" width="1920" height="1080" />
+    </state>
+    <state x="1097" y="780" width="676" height="431" key="EditFileWatcherDialog/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@0.459.1920.1080" timestamp="1602942223120" />
+    <state x="2274" y="680" width="424" height="478" key="FileChooserDialogImpl" timestamp="1603523887976">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2274" y="680" width="424" height="478" key="FileChooserDialogImpl/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1603523887976" />
+    <state x="2363" y="522" key="SettingsEditor" timestamp="1602948738492">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2363" y="522" key="SettingsEditor/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1602948738492" />
+    <state x="2210" y="796" width="604" height="271" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603125506153">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2210" y="796" width="604" height="271" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1603125506153" />
+    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup" timestamp="1602954695933">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1602954695933" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Client/src/components/layout/Header/Header.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

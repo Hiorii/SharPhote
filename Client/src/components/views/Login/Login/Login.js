@@ -4,32 +4,34 @@ import registerUser from '../../../../strapi/registerUser';
 import {useHistory} from 'react-router-dom';
 import {UserContext} from '../../../../data/userData';
 import styles from './Login.scss';
-import global from '../../../../styles/global.scss'
-
+import global from '../../../../styles/global.scss';
+import {AlertData} from '../../../../data/alertsData';
 
 const Login = () => {
   const history = useHistory();
 
   const {userLogin} = useContext(UserContext);
+  const {alert, showAlert} = useContext(AlertData);
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUsername] = useState('default');
   const [isMember, setIsMember] = useState(true);
 
-
-
-  let isEmpty = !email || !password || !username;
+  let isEmpty = !email || !password || !username || alert.show;
 
   const toggleUser = () => {
     setIsMember((p)=>{
       let isMember = !p;
       isMember?setUsername('default'):setUsername('');
       return isMember;
-    })
+    });
   };
 
   const handleSubmit = async (e) => {
+    showAlert({
+      msg:'Trwa logowanie. Jeszcze chwilka...',
+    });
     e.preventDefault();
     let response;
     if(isMember){
@@ -41,11 +43,17 @@ const Login = () => {
       const {jwt:token, user:{username}} = response.data;
       const newUser = {token,username};
       userLogin(newUser);
+      showAlert({
+        msg:`Cześć ${username} - miłych zakupów!`,
+      });
       history.push('/products');
     } else {
-
+      showAlert({
+        msg:'Coś poszło nie tak... Spróbuj ponownie',
+        type:'danger',
+      });
     }
-  }
+  };
 
   return (
     <section className={`${styles.form} + ${global.section}`}>
