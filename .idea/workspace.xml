@@ -11,31 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80d30f3-64f1-4a8b-9651-46bf9960035a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Client/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/layout/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Alert/Alert.special.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Checkout/Checkout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Login/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Login/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Login/LoginLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Login/LoginLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/PrivateRoute/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/PrivateRoute/PrivateRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/components/views/UserType/UserType.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/components/views/UserType/UserType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/data/cartData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/cartData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/data/productsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/productsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/data/userData.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/data/userData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/strapi/loginUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/strapi/loginUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/strapi/submitOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/strapi/submitOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j0R9Nef6WpGYadJnEAh69Wy9Lg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,7 +75,8 @@
       <workItem from="1603304678442" duration="10085000" />
       <workItem from="1603384639571" duration="7915000" />
       <workItem from="1603523814206" duration="100000" />
-      <workItem from="1603539041207" duration="14760000" />
+      <workItem from="1603539041207" duration="19541000" />
+      <workItem from="1603628583287" duration="3254000" />
     </task>
     <servers />
   </component>
@@ -133,10 +116,10 @@
       <screen x="1920" y="339" width="1920" height="1200" />
     </state>
     <state x="2210" y="796" width="604" height="271" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1603125506153" />
-    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup" timestamp="1602954695933">
+    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup" timestamp="1603629645327">
       <screen x="1920" y="339" width="1920" height="1200" />
     </state>
-    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1602954695933" />
+    <state x="2121" y="597" width="672" height="678" key="search.everywhere.popup/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1603629645327" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
