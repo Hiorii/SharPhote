@@ -12,12 +12,14 @@ import Header from './components/layout/Header/Header';
 import UserType from './components/views/UserType/UserType';
 import Alert from './components/views/Alert/Alert';
 import PrivateRoute from './components/views/PrivateRoute/PrivateRoute';
+import ScrollButon from './components/features/ScrollButton/ScrollButton';
 
 export default function App() {
   return (
     <Router>
       <Header />
       <Alert />
+      <ScrollButon />
       <Switch>
         <Route exact path='/'>
           <Home />

@@ -6,13 +6,16 @@ import ProductsProvider from './data/productsData';
 import CardProvider from './data/cartData';
 import UserProvider from './data/userData';
 import AlertsProvider from './data/alertsData';
+import ScrollProvider from './data/scrollData';
 
 ReactDOM.render(
   <UserProvider>
     <ProductsProvider>
       <CardProvider>
         <AlertsProvider >
-          <App />
+          <ScrollProvider>
+            <App />
+          </ScrollProvider>
         </AlertsProvider >
       </CardProvider>
     </ProductsProvider>
